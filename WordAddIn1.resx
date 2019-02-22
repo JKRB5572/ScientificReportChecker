@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="disclaimer.Text" xml:space="preserve">
+    <value>Disclaimer: -
+The following automated tool provides advisory feedback only, with the purpose of allowing you to improve your writing style in the experimental section of synthetic chemistry laboratory reports. The tool checks for some common mistakes in style and formatting, but it cannot check your procedures for accuracy or chemical correctness. Using this tool does not guarantee that your mark will increase. Whilst using this tool you accept full responsibility for any changes that you make to your reports and/or assessments.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="settingsButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAYAAAB9qAq4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAABE5JREFUWEe9mEsodkEYx49CuWWFFFlaoVyycF0oCwsbt2JDKJIiNlLCyiUbloqS
+        a7nklgilFIUo13Jbuea6ket83zOeOebMnHOYz/t+v3p6z5nnmf/8O+85c2aORhzIw8MDKSkpIdnZ2eT5
+        +Rlbv7i9vSX+/v7E1dWV1u3t7WHGGocZDA8PJ5qm6eHm5oaZLyIiIgw1EKWlpZg1xyEG8/Pz9QFdXFxo
+        wHFXVxeZmZkh3d3dZGJiwrQGwg6HGCwvLzcMLBrgQ8xnZWWhijkO+4vNDHwXUL+wsIAK5jjE4OHhoalB
+        1saHWX50dBSVZH5t8Pj4WBqcnduFWDs0NERaW1v189PTU6qvbLC6uloXqa2t1Y/FAXNycsj29jb2+uTg
+        4IAUFxdb9uHD29ub9lEy+Pb2ZiomDnR3d4c9rPH19TX0FQNy6+vragZramosRZk5FeAq2enl5eWpGQwI
+        CLAVXFtbw8qf8fT0RPuJmqwN5k8lg5WVlZaCwcHBWKVGenq6QQ+O4UKMj4/TvNp/8pf5+XmSmpoqiTY1
+        NWGFGrOzs5IWj7JBhig6NzeHGTVubm4kreXlZcz+o8HX11dJdHFxEbNqPD4+Slqbm5uY/eUVZMLw29HR
+        gRk1VlZWJIMZGRl0zgSUDb6/v5PCwkLJYGRkJFaoUVZWZjDI9CDoQ4l1P+Lq6krvzIuy88vLS6z8OaKW
+        qKlksLGx0VSMCXp4eGDlz4iLi7PVS0pK+vcraCUaGBiI1fakpaUZdJgua4NfmAuV78HY2FiDGAtxoJaW
+        FuxhZGRkhO5JzPpkZmbqx+7u7rRe2SCbFiDAbGdnp34uDgjh6elJQkND6WaJb2e1rL6iogJHIOTo6AiP
+        LAzComB4eBjPPlcx0dHRtN2M6elpy4HF4POspqqqCpVkDAbFpxQmZIBfw0GYcXZ2RnOige8C+lxcXKCK
+        jGE0mCZ4I3wwsZSUFKw2AitiVicaEEPMx8TEoIqMdDlEMTFgv3t9fY3VX8THx9O8OHhBQQG9Nerr68nA
+        wICuw9f4+PigiowGazJ4tcC7lHVmAUv6wcFB+kT6+fkZciEhIfR3dXWVCvH7CT5EEhMTpRpYOVuh5ebm
+        Sh2Sk5MxbaSurk6qBeMMWNEkJCTouebmZswYiYqKIkFBQXRj/x1/dT7F2OWGacEOuAf5era5EXl5ecGj
+        36H19vYSLy8vOhgEzGt27O7u6rVFRUXY6jzoTTI5OakPurW1RRN2sNqGhgZscR7U4NLSkj7o1NQUTVhx
+        fn6u14aFhZH9/X3MOAeNf1VBwArDDrZxYvcghDPRzF7+PT09mDays7Mj1YJRZ6JtbGxIg0LAdhA+XXx8
+        fNDvJOwTGws4h0kbVifOhP4/8LKHzxXwgPAmrGJsbIx2/h9IN1BbWxs1wd9jYtzf32O185EMslcYBKyO
+        +/v7DdMQRF9fH1Y7H8ngycmJvhyHrwiM9vZ2ukDlN9XOh5A/t8AgBdXQh9kAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>
